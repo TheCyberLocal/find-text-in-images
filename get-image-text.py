@@ -17,15 +17,15 @@ for i in range(0, 3):
     # Initialize empty strings to store the results.
     position = ''
     text = ''
-    probability = ''
+    confidence = ''
 
-    # Iterate through results and concatenate the position, text, and probability.
+    # Iterate through results and concatenate the position, text, and confidence.
     for result in results:
         position += str(result[0]) + ' '  # Append the position of the text in the image.
         text += str(result[1]) + ' '  # Append the recognized text.
-        probability += str(result[2]) + ' '  # Append the probability/confidence level of the recognition.
+        confidence += str(result[2]) + ' '  # Append the confidence level of the recognition.
 
     # Print the results.
     print(position)  # Print positions of text.
     print(text)  # Print recognized texts.
-    print(probability)  # Print probabilities for each recognized text.
+    print(confidence)  # Print confidence for each recognized text.
