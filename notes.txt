@@ -1,8 +1,0 @@
-
-pytesseract vs easyocr
-
-pytesseract is 6 times faster
-pytesseract only gets text from image
-
-easyocr gets text, positions, and probability of the text.
-easyocr is slow
